@@ -1,0 +1,40 @@
+body{
+			max-width: 750px;
+			margin: 100px auto;
+		}
+		.xga-accrodion{}
+		.xga-accrodion .xga-accordion-heading a:hover{
+			background-color: #ddd;
+			border-color: #ddd;
+		}
+		.xga-accrodion .xga-accordion-heading a{
+			background-color: #e5e5e5;
+			padding:20px 40px;
+			text-decoration: none;
+			display: block;
+			width: 100%;
+			color: #333;
+			font-size: 16px;
+			line-height: 26px;
+			border: 2px solid #e5e5e5;
+			margin-bottom: 20px;
+			transition: background-color .3s ease-in;
+		}
+		.xga-accrodion .xga-accordion-heading a.open{
+			background-color: #f00;
+			margin-bottom: 0px;
+			color: #fff;
+		}
+		.xga-accrodion .xga-accordion-body{
+			max-height: 0;
+			overflow: hidden;
+			transition: max-height .3s ease-in;
+		}
+		.xga-accrodion .xga-accordion-body .xga-acc-content{
+			color: #777;
+			padding: 15px 40px;
+			border: 2px solid #e5e5e5;
+			border-top: 0;
+			display: block;
+			width: 100%;
+		}
